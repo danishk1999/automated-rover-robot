@@ -27,3 +27,29 @@ obstacles and move without human input.
 - **Serial Communication** — Raspberry Pi to Arduino communication
 
 ## System Architecture
+
+RPLidar + USB Camera
+↓
+Raspberry Pi 3B  ←→  Arduino Uno
+(Python/OpenCV)         ↓
+Sabertooth 2x12
+↓
+Rover Chassis Motors
+
+## Key Features
+- Autonomous navigation without human input
+- 360° obstacle detection using RPLidar
+- Real-time computer vision using USB camera and OpenCV
+- Serial communication between Raspberry Pi and Arduino
+- Motor control via Sabertooth dual motor controller
+
+## What I Learned
+- Hardware-software integration in embedded systems
+- Real-time sensor data processing
+- Computer vision fundamentals with OpenCV
+- Serial communication protocols
+- Autonomous navigation logic and algorithms
+
+## Status
+🚧 Currently in development — code and documentation will be uploaded 
+upon project completion
